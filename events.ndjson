@@ -1,0 +1,8 @@
+{"event_id":"evt_001","workflow_id":"wf_001","timestamp":"2024-03-15T10:00:00.000Z","source_service":"svc_a","sequence":1,"transition":{"from":"INITIAL","to":"SCREENING"},"metadata":{}}
+{"event_id":"evt_002","workflow_id":"wf_001","timestamp":"2024-03-15T10:00:00.500Z","source_service":"svc_a","sequence":1,"transition":{"from":"INITIAL","to":"SCREENING"},"metadata":{}}
+{"event_id":"evt_003","workflow_id":"wf_001","timestamp":"2024-03-15T10:01:00.000Z","source_service":"svc_a","sequence":2,"transition":{"from":"SCREENING","to":"DISPATCH"},"metadata":{}}
+{"event_id":"evt_004","workflow_id":"wf_001","timestamp":"2024-03-15T10:01:02.000Z","source_service":"svc_b","sequence":1,"transition":{"from":"SCREENING","to":"AWAITING"},"metadata":{}}
+{"event_id":"evt_005","workflow_id":"wf_001","timestamp":"2024-03-15T10:05:00.000Z","source_service":"svc_a","sequence":3,"transition":{"from":"DISPATCH","to":"DISPATCH"},"metadata":{"reason":"heartbeat"}}
+{"event_id":"evt_006","workflow_id":"wf_001","timestamp":"2024-03-15T10:10:00.000Z","source_service":"svc_a","sequence":4,"transition":{"from":"DISPATCH","to":"COMPLETED"},"metadata":{}}
+CORRUPTED LINE - NOT JSON
+{"event_id":"evt_008","workflow_id":"wf_002","timestamp":"2024-03-15T10:00:00.000Z","source_service":"svc_a","sequence":1,"transition":{"from":"INITIAL","to":"VERIFICATION"},"metadata":{}}
